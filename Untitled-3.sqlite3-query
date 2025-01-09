@@ -1,0 +1,3 @@
+-- database: ./aeroportodb.sqlite
+
+SELECT * FROM voli;

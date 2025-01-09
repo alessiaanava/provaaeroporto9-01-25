@@ -1,0 +1,12 @@
+-- database: /workspaces/provaaeroporto9-01-25/aeroportodb.sqlite
+
+-- Premi il pulsante ▷ nell'angolo in alto a destra della finestra per eseguire l'intero file.
+
+SELECT * FROM "table-name";
+CREATE TABLE IF NOT EXISTS voli (
+    id_aereo TEXT PRIMARY KEY,          -- Identificativo univoco dell'aereo
+    orario_partenza TEXT NOT NULL,      -- Data e ora di partenza del volo
+    ora_arrivo TEXT NOT NULL,           -- Data e ora di arrivo del volo
+    compagnia_aerea TEXT NOT NULL,      -- Nome della compagnia aerea
+    numero_passeggeri INTEGER NOT NULL  -- Numero di passeggeri a bordo
+);
